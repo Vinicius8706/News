@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=JetBrains+Mono&family=Vollkorn:wght@600&display=swap');
+
+
+.header {
+  margin: 20px 20px 40px 20px;
+  font-size: 10px;
+  background-color: #fb1;
+  padding: 20px 10px 20px 10px;
+  font-family: 'Vollkorn', helvetica, monospace;
+}
+.links{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-left: 20px;
+  background-color:#ffffd8	;
+  font-size: 10pt;
+  padding: 14px;
+ 
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-family: 'IBM Plex Mono', helvetica, arial;
+  margin-bottom: 25px;
+ 
+}
+
+p {
+  font-family: 'Vollkorn', helvetica, monospace;
+  font-size: 9px;
+  font-weight: normal;
+}
