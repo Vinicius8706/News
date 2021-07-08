@@ -55,7 +55,20 @@ ar.forEach(function (valor, indice) {
 });
 //Questao 5
 
+function somatorio(a, b) {
+  let i;
+  let soma = 0;
+  for(i = 0; i < a; i++){
+    if(a <= b){
+      soma = a + soma
+      console.log(soma);
 
+    }
+  }
+  return soma
+}
+
+somatorio(5,15)
 // Questao 6
 
 var intersseção = function (num1, num2) {
